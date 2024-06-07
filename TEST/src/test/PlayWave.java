@@ -1,9 +1,10 @@
 package test;
-public class PlayWave {
-//implements PlayInterface {
+public class PlayWave implements PlayInterface {
 	
-//	@Override
-//	public void play() {
-//		System.out.println("play wave");
-//	}
+	@Override
+	public void play() {
+		System.out.println("play Wave");
+	}
+
+
 }
